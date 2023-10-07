@@ -1,11 +1,12 @@
 # Directory
+```
 📦example
  ┗ 📂myproject
  ┃ ┣ 📂myapp
  ┃ ┃ ┣ 📂migrations
  ┃ ┃ ┣ 📂templates
  ┃ ┣ 📂myproject
-
+```
 # ERROR
 10/7 : "return render(request, 'myapp/template/create_book.html', {'form': form}) "
 
