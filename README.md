@@ -1,8 +1,8 @@
 # Fine-Tuning-Chatbot
 
-9/26 : https://wikidocs.net/198481
+## 9/26 : https://wikidocs.net/198481
 
-9/27 : https://wikidocs.net/197549 Django 깊이 파고 들기
+## 9/27 : https://wikidocs.net/197549 Django 깊이 파고 들기
 
 Django Model에 관하여 읽음. 간단히 Author 과 Book class 로 Data를 생성하고 저장해보는 예제를 봄.
 
@@ -18,7 +18,7 @@ Django의 뷰(Views)는 웹 요청을 받아 처리하고 웹 응답을 반환�
 Django 뷰는 HTTP 요청을 처리하고 HTTP 응답을 반환하는 역할을 담당
 Django REST Framework의 맥락에서 뷰는 API 엔드포인트를 정의하고 데이터를 검색, 생성, 업데이트 또는 삭제하는 방법을 정의하는 데 사용
 
-10/17
+## 10/17
 
 ### Django의 템플릿
 Django는 자체 템플릿 언어를 사용합니다. Django 프로젝트에서 각 Django 앱에는 기본적으로 templates 디렉터리가 포함됩니다.
@@ -37,3 +37,12 @@ Django 템플릿 시스템의 가장 강력한 측면 중 하나는 템플릿 �
 
 ### [폼 및 사용자 입력](https://wikidocs.net/197553)
 example/myproject에서 진행
+
+### [06) 프론트엔드 자산 통합](https://wikidocs.net/197554)
+Django는 각 애플리케이션에서 (및 지정한 기타 위치에서) 정적 파일을 하나의 위치로 수집하여 제품으로 서비스할 수 있게 합니다. 이를 위해 설정 파일에 STATIC_URL, STATIC_ROOT 및 STATICFILES_DIRS를 설정해야 합니다.
+
+미디어 파일은 조금 다릅니다. 사용자가 파일을 업로드하면 Django는 MEDIA_ROOT 설정에서 지정한 디렉터리에 파일을 저장합니다. 개발 중에는 MEDIA_URL 설정을 사용하여 파일을 제공하지만 제품 환경에서는 웹 서버나 클라우드 저장소 서비스에서 처리합니다.
+
+### [관리자 인터페이스 활성화] (https://wikidocs.net/197555)
+
+## [04. Django REST 프레임워크: 전문가처럼 API 구축](https://wikidocs.net/197558) 10월 중...
