@@ -45,4 +45,8 @@ Django는 각 애플리케이션에서 (및 지정한 기타 위치에서) 정�
 
 ### [관리자 인터페이스 활성화] (https://wikidocs.net/197555)
 
-## [04. Django REST 프레임워크: 전문가처럼 API 구축](https://wikidocs.net/197558) 10월 중...
+## [04. Django REST 프레임워크: 전문가처럼 API 구축](https://wikidocs.net/197558)
+RESTful API (Representational State Transfer Application Programming Interfaces)는 서로 다른 소프트웨어 응용 프로그램 간에 데이터와 기능을 공유할 수 있도록 하는 커뮤니케이션 브릿지 역할을 합니다. 시스템이 표준 HTTP 메서드(GET, POST, PUT, DELETE 등)를 사용하여 HTTP를 통해 통신하고 데이터를 교환할 수 있습니다.
+
+
+Django REST Framework (DRF)은 RESTful API를 구축하기 위한 강력한 도구로써 다양한 기능을 제공합니다.
