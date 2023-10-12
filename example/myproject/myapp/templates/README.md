@@ -1,0 +1,1 @@
+# templates의 위치가 myapp 내부가 아닌  myproject 하위로 이동함에 따라 index 파일의 경로 수정
