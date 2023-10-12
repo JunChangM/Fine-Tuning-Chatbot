@@ -140,6 +140,11 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 from rest_framework import permissions
 REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        # 'myapp.authentication.CustomAuthentication', 9 장에서 진행
+    ],
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
     ],

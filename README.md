@@ -50,3 +50,16 @@ RESTful API (Representational State Transfer Application Programming Interfaces)
 
 
 Django REST Framework (DRF)은 RESTful API를 구축하기 위한 강력한 도구로써 다양한 기능을 제공합니다.
+
+### [04-04 라우터](https://wikidocs.net/197564)
+URL 라우팅 소개
+
+
+Django REST Framework (DRF)에서 "Router"는 RESTful API를 구축하기 위한 자동 URL 라우팅과 뷰셋 바인딩을 돕는 편리한 기능입니다. 이 기능은 URL 패턴을 정의하고 뷰셋과 연결하는 과정을 단순화하여 제공된 뷰셋을 기반으로 필요한 URL을 자동으로 생성합니다. DRF의 Router 클래스는 뷰셋을 등록하고 해당 뷰셋에 대한 표준 CRUD (Create, Retrieve, Update, Delete) 작업에 대한 URL 패턴을 자동으로 생성하는 일련의 메서드를 제공합니다. 
+
+
+Postman 설치 및 사용 : url을 이용한 DB CRUD를 편히 볼 수 있다.
+
+### 04-05 프레임워크에서 인증과 권한
+### 04-06 페이지네이션, 필터링, 그리고 정렬
+Django REST Framework에서 페이지네이션, 필터링, 그리고 정렬을 지원하는 API를 만드는 것은 매우 쉽습니다. 이러한 기능은 대량의 데이터를 반환하는 API에 있어서 중요합니다. 페이지네이션을 사용하지 않으면 API가 한 번에 너무 많은 데이터를 반환하려고 하여 응답 시간이 느려지고 서버 부하가 증가할 수 있습니다. 필터링과 정렬은 클라이언트가 원하는 특정 데이터를 쉽게 찾을 수 있도록 도와줍니다.
